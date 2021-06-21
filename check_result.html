@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--CSS -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/check_result.css">
+    <title>Check Result</title>
+</head>
+
+<body onload="myFunction()">
+    <div id="loading">
+        <div class="load_hold">
+            <h1>Scraping URLs</h1>
+            <h3>Please wait this may take some time...</h3>
+
+            <img src="img/loading_img.gif" alt="">
+        </div>
+
+
+    </div>
+
+
+    <section class="full_wraper">
+        <section class="header">
+            <div class="container">
+                <div class="head_text">
+                    <h1>Check results</h1>
+                    <p>Please check over the data below and import.</p>
+                </div>
+
+                <div class="table_hold">
+                    <table class="table ">
+                        <tr>
+                            <th>Seller</th>
+                            <th>Product image</th>
+                            <th>Product name</th>
+                            <th>Product URL</th>
+                            <th>Price</th>
+                            <th>Sales</th>
+                            <th>Sales 30 days</th>
+                            <th>Sales 90 days</th>
+                            <th>Total sales (£)</th>
+                            <th>Parent category</th>
+                            <th>Child 1 category</th>
+                            <th>Child 2 category</th>
+                        </tr>
+                        <tr>
+                            <td class="seller_name">Seller name</td>
+                            <td>
+                                <div class="pro_img"> <img src="img/mini.jpg" alt=""></div>
+                            </td>
+                            <td class="pro_name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                                bibendum
+                                tellus. Sed commodo
+                                varius risus quis tincidunt. Aenean convallis nisl viverra, tempus mauris non,
+                                condimentum
+                                lectus.</td>
+                            <td class="pro_url">https://www.ebay.co.uk/store/product1</td>
+                            <td class="pro_price">£599.99</td>
+                            <td>30</td>
+                            <td>60</td>
+                            <td>90</td>
+                            <td>£17,999.70</td>
+                            <td>Pet supplies</td>
+                            <td>Small animal supplies</td>
+                            <td>Chicken run</td>
+                        </tr>
+                        <tr>
+                            <td class="seller_name">Seller name</td>
+                            <td>
+                                <div class="pro_img"> <img src="img/mini.jpg" alt=""></div>
+                            </td>
+                            <td class="pro_name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                                bibendum
+                                tellus. Sed commodo
+                                varius risus quis tincidunt. Aenean convallis nisl viverra, tempus mauris non,
+                                condimentum
+                                lectus.</td>
+                            <td class="pro_url">https://www.ebay.co.uk/store/product1</td>
+                            <td class="pro_price">£599.99</td>
+                            <td>30</td>
+                            <td>60</td>
+                            <td>90</td>
+                            <td>£17,999.70</td>
+                            <td>Pet supplies</td>
+                            <td>Small animal supplies</td>
+                            <td>Chicken run</td>
+                        </tr>
+                        <tr>
+                            <td class="seller_name">Seller name</td>
+                            <td>
+                                <div class="pro_img"> <img src="img/mini.jpg" alt=""></div>
+                            </td>
+                            <td class="pro_name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                                bibendum
+                                tellus. Sed commodo
+                                varius risus quis tincidunt. Aenean convallis nisl viverra, tempus mauris non,
+                                condimentum
+                                lectus.</td>
+                            <td class="pro_url">https://www.ebay.co.uk/store/product1</td>
+                            <td class="pro_price">£599.99</td>
+                            <td>30</td>
+                            <td>60</td>
+                            <td>90</td>
+                            <td>£17,999.70</td>
+                            <td>Pet supplies</td>
+                            <td>Small animal supplies</td>
+                            <td>Chicken run</td>
+                        </tr>
+                        <tr>
+                            <td class="seller_name">Seller name</td>
+                            <td>
+                                <div class="pro_img"> <img src="img/mini.jpg" alt=""></div>
+                            </td>
+                            <td class="pro_name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                                bibendum
+                                tellus. Sed commodo
+                                varius risus quis tincidunt. Aenean convallis nisl viverra, tempus mauris non,
+                                condimentum
+                                lectus.</td>
+                            <td class="pro_url">https://www.ebay.co.uk/store/product1</td>
+                            <td class="pro_price">£599.99</td>
+                            <td>30</td>
+                            <td>60</td>
+                            <td>90</td>
+                            <td>£17,999.70</td>
+                            <td>Pet supplies</td>
+                            <td>Small animal supplies</td>
+                            <td>Chicken run</td>
+                        </tr>
+                        <tr>
+                            <td class="seller_name">Seller name</td>
+                            <td>
+                                <div class="pro_img"> <img src="img/mini.jpg" alt=""></div>
+                            </td>
+                            <td class="pro_name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                                bibendum
+                                tellus. Sed commodo
+                                varius risus quis tincidunt. Aenean convallis nisl viverra, tempus mauris non,
+                                condimentum
+                                lectus.</td>
+                            <td class="pro_url">https://www.ebay.co.uk/store/product1</td>
+                            <td class="pro_price">£599.99</td>
+                            <td>30</td>
+                            <td>60</td>
+                            <td>90</td>
+                            <td>£17,999.70</td>
+                            <td>Pet supplies</td>
+                            <td>Small animal supplies</td>
+                            <td>Chicken run</td>
+                        </tr>
+                        <tr>
+                            <td class="seller_name">Seller name</td>
+                            <td>
+                                <div class="pro_img"> <img src="img/mini.jpg" alt=""></div>
+                            </td>
+                            <td class="pro_name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                                bibendum
+                                tellus. Sed commodo
+                                varius risus quis tincidunt. Aenean convallis nisl viverra, tempus mauris non,
+                                condimentum
+                                lectus.</td>
+                            <td class="pro_url">https://www.ebay.co.uk/store/product1</td>
+                            <td class="pro_price">£599.99</td>
+                            <td>30</td>
+                            <td>60</td>
+                            <td>90</td>
+                            <td>£17,999.70</td>
+                            <td>Pet supplies</td>
+                            <td>Small animal supplies</td>
+                            <td>Chicken run</td>
+                        </tr>
+
+
+                    </table>
+                </div>
+                <button type="button" class="btn gr_btn btn-grad"> IMPORT </button>
+            </div>
+        </section>
+    </section>
+
+
+    <script>
+        // $(document).ready(function(){
+        // 	$('div#loading').removeAttr('id');
+        // });
+        var preloader = document.getElementById("loading");
+        // window.addEventListener('load', function(){
+        // 	preloader.style.display = 'none';
+        // 	})
+
+        function myFunction() {
+            preloader.style.display = 'none';
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
